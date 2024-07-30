@@ -1,0 +1,22 @@
+image: node:14
+
+pipelines:
+  default:
+    - step:
+        name: Install dependencies
+        caches:
+          - node
+        script:
+          - npm install
+    - step:
+        name: Run tests
+        caches:
+          - node
+        script:
+          - npm test
+    - step:
+        name: Build
+        caches:
+          - node
+        script:
+          - npm run build

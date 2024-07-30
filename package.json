@@ -1,0 +1,13 @@
+{
+  "name": "pipelineproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    
+    "test": "your-test-command",
+    "build": "your-build-command"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
